@@ -1,6 +1,6 @@
 # Sprint 1 — Identity Service Design Spec
 
-- **Status:** Draft (awaiting user review)
+- **Status:** Approved (2026-05-04)
 - **Date:** 2026-05-04
 - **Author:** Brainstorming session (Skillvio team + Claude)
 - **Sprint:** 1 / 8
