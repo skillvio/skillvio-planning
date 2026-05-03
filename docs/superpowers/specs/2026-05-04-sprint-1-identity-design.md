@@ -6,13 +6,13 @@
 - **Sprint:** 1 / 8
 - **Estimated effort:** 2 weeks
 - **Repo:** [skillvio/skillvio-identity-service](https://github.com/skillvio/skillvio-identity-service)
-- **Related ADRs:** 0002 (microservices), 0003 (.NET 8 + EF Core), 0004 (Postgres + Redis), 0006 (cookie session), 0007 (RabbitMQ events)
+- **Related ADRs:** 0002 (microservices), 0003 (.NET 10 LTS + EF Core 10), 0004 (Postgres + Redis), 0006 (cookie session), 0007 (RabbitMQ events)
 
 ---
 
 ## 1. Amaç
 
-Skillvio'nun **Identity Service**'ini sıfırdan .NET 8 + EF Core 8 ile inşa etmek. Bu servis tüm
+Skillvio'nun **Identity Service**'ini sıfırdan .NET 10 + EF Core 10 ile inşa etmek. Bu servis tüm
 kullanıcı kimliği, oturum yönetimi, abonelik durumu ve sertifika akışlarının **tek doğruluk
 kaynağı**dır.
 

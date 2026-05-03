@@ -18,7 +18,7 @@ DB şemasına ve kendi deploy döngüsüne sahiptir. Servisler arası iletişim:
                                          │ HTTPS, cookies
                                          ▼
                               ┌──────────────────────┐
-                              │   API Gateway        │  ← YARP (.NET 8)
+                              │   API Gateway        │  ← YARP (.NET 10)
                               │   skillvio-gateway   │  • Routing
                               │                      │  • Auth check
                               │                      │  • Rate limit
@@ -69,9 +69,9 @@ DB şemasına ve kendi deploy döngüsüne sahiptir. Servisler arası iletişim:
 
 Her servis aynı stack'i kullanır:
 
-- **Runtime:** .NET 8
+- **Runtime:** .NET 10
 - **Web:** ASP.NET Core Minimal APIs / Controllers
-- **DB ORM:** EF Core 8 + Npgsql + EFCore.NamingConventions (snake_case)
+- **DB ORM:** EF Core 10 + Npgsql + EFCore.NamingConventions (snake_case)
 - **Auth:** Cookie-based session, validated by Gateway
 - **Validation:** FluentValidation
 - **Logging:** Serilog → Loki / Seq

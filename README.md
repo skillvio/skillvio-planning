@@ -25,7 +25,7 @@ skillvio-planning/
 ├── adr/                            ← Architecture Decision Records
 │   ├── 0001-multi-repo.md
 │   ├── 0002-microservices.md
-│   ├── 0003-dotnet-8-ef-core.md
+│   ├── 0003-dotnet-10-ef-core.md
 │   ├── 0004-postgres-redis.md
 │   ├── 0005-i18n-translations-table.md
 │   ├── 0006-auth-cookie-session.md
